@@ -43,3 +43,20 @@ label {
     padding: 10px;
     box-shadow: 0 0 20px 3px;
 }
+.ui.red.message {
+    background-color: #ffe8e6;
+    color: #db2828;
+    box-shadow: 0 0 0 1px #db2828 inset, 0 0 0 0 transparent;
+}
+.ui.green.message {
+    background-color: #78d678;
+    color: green;
+    box-shadow: 0 0 0 1px green inset, 0 0 0 0 transparent;
+}
+.ui.divider:not(.vertical):not(.horizontal) {
+    border-top: 100px solid rgba(232, 5, 14, 0);
+    border-bottom: 10px solid rgba(255, 6, 6, 0);
+}
+.ui.divider {
+    font-size: 10rem;
+}
